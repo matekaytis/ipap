@@ -25,8 +25,8 @@ def func_write_f(n_file, mode_f, content_f):
 				with open(n_file, 'r') as file:
 					print('')
 				print('Проверка прошла успешна. Начинается запись в файл.')
-				#with open(n_file, 'a') as file:
-				 	#file.
+				with open(n_file, 'a') as file:
+				 	file.
 			except IOError:
 				print('Ошибка! Файл уже открыт.')
 		else:
